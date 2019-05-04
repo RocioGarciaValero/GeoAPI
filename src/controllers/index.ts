@@ -14,3 +14,4 @@ export * from './answer.controller';
 export * from './hint.controller';
 export * from './position.controller';
 export * from './scene.controller';
+export * from './game.controller';
