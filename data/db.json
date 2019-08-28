@@ -1,0 +1,52 @@
+{
+  "ids": {
+    "User": 9,
+    "Position": 4,
+    "Hint": 3,
+    "Scene": 25,
+    "Game": 3,
+    "Student": 3,
+    "Matter": 4
+  },
+  "models": {
+    "User": {
+      "Judith": "{\"username\":\"Judith\",\"password\":\"JJJ\",\"email\":\"jmembrives@hotmail.com\",\"emailVerified\":true,\"id\":3}",
+      "Toni": "{\"username\":\"Toni\",\"password\":\"TTT\",\"email\":\"tgarcia@hemav.com\",\"emailVerified\":true,\"id\":2}",
+      "Edu": "{\"username\":\"Edu\",\"password\":\"UUU\",\"email\":\"edelgado@hotmail.com\",\"emailVerified\":true,\"id\":8}",
+      "Elena": "{\"username\":\"Elena\",\"password\":\"EEE\",\"email\":\"evalero@hotmail.com\",\"emailVerified\":true,\"id\":0}",
+      "NUEVO": "{\"username\":\"NUEVO\",\"password\":\"string\",\"email\":\"string\",\"emailVerified\":true,\"id\":0}",
+      "Rocio": "{\"username\":\"Rocio\",\"password\":\"RRR\"}",
+      "Ana": "{\"username\":\"Ana\",\"password\":\"NNN\"}"
+    },
+    "Position": {
+      "POINT 1": "{\"name\":\"POINT 1\",\"latitude\":\"41.3301659\",\"longitude\":\"2.0952089\",\"description\":\"string\",\"id\":0}",
+      "Punto2": "{\"name\":\"Punto2\",\"latitude\":\"41.3882665\",\"longitude\":\"2.0833833\",\"description\":\"Portería futbol\",\"id\":0}",
+      "test": "{\"name\":\"test\",\"latitude\":41.2739483,\"longitude\":1.9783761000000002,\"description\":\"hola hola\",\"pista1\":\"busca\",\"pista2\":\"dirigete\",\"pregunta\":\"color mar\",\"respuesta1\":\"verde\",\"respuesta2\":\"azul\",\"respuesta3\":\"rojo\",\"respuesta4\":\"turquesa\"}"
+    },
+    "Hint": {
+      "Pista 1": "{\"name\":\"Pista 1\",\"description\":\"Juegan todos, grandes y pequeños\",\"id\":0}",
+      "Pista 2": "{\"name\":\"Pista 2\",\"description\":\"Pizzarra aula de Dibujo\",\"id\":2}"
+    },
+    "Scene": {
+      "string": "{\"name\":\"string\",\"positionId\":0,\"hintId\":0,\"id\":0}",
+      "Escenario 1": "{\"name\":\"Escenario 1\",\"positionId\":0,\"hintId\":2,\"id\":0}",
+      "Escenario 2": "{\"name\":\"Escenario 2\",\"positionId\":1,\"hintId\":1,\"id\":1}",
+      "title1": "{\"name\":\"title1\",\"latitude\":41.3301659,\"longitude\":2.0952089}",
+      "Pueba 2": "{\"name\":\"Pueba 2\",\"latitude\":41.3301659,\"longitude\":2.0952089}",
+      "TEST": "{\"name\":\"TEST\",\"latitude\":41.3301659,\"longitude\":2.0952089}"
+    },
+    "Game": {
+      "Mates 1": "{\"name\":\"Mates 1\",\"studentId\":0,\"groupId\":2,\"time\":0,\"questionId\":0,\"sceneId\":0,\"id\":0}",
+      "Juego Historia 2": "{\"name\":\"Juego Historia 2\",\"studentId\":1,\"groupId\":3,\"time\":60,\"questionId\":5,\"sceneId\":1,\"id\":0}"
+    },
+    "Student": {
+      "María": "{\"name\":\"María\",\"surname\":\"García\",\"profileImage\":\"string\",\"username\":\"Maria\",\"password\":\"MMM\",\"email\":\"mgarcia@hotmail.com\",\"emailVerified\":true,\"points\":7,\"id\":1,\"schoolId\":5,\"studentId\":2,\"avatarId\":0}",
+      "Alex": "{\"name\":\"Alex\",\"surname\":\"Amaya\",\"profileImage\":\"string\",\"username\":\"Alex\",\"password\":\"AAA\",\"email\":\"aamaya@hotmail.com\",\"emailVerified\":true,\"points\":11,\"id\":3,\"schoolId\":5,\"studentId\":7,\"avatarId\":0}"
+    },
+    "Matter": {
+      "Mates": "{\"name\":\"Mates\",\"id\":1,\"schoolId\":1}",
+      "Historia": "{\"name\":\"Historia\",\"id\":3,\"schoolId\":1}",
+      "Inglés": "{\"name\":\"Inglés\",\"id\":2,\"schoolId\":1}"
+    }
+  }
+}
