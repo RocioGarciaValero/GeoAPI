@@ -1,12 +1,13 @@
 {
   "ids": {
     "User": 9,
-    "Position": 4,
+    "Position": 7,
     "Hint": 3,
-    "Scene": 25,
-    "Game": 3,
+    "Scene": 32,
+    "Game": 4,
     "Student": 3,
-    "Matter": 4
+    "Matter": 4,
+    "Rules": 3
   },
   "models": {
     "User": {
@@ -21,23 +22,25 @@
     "Position": {
       "POINT 1": "{\"name\":\"POINT 1\",\"latitude\":\"41.3301659\",\"longitude\":\"2.0952089\",\"description\":\"string\",\"id\":0}",
       "Punto2": "{\"name\":\"Punto2\",\"latitude\":\"41.3882665\",\"longitude\":\"2.0833833\",\"description\":\"Portería futbol\",\"id\":0}",
-      "test": "{\"name\":\"test\",\"latitude\":41.2739483,\"longitude\":1.9783761000000002,\"description\":\"hola hola\",\"pista1\":\"busca\",\"pista2\":\"dirigete\",\"pregunta\":\"color mar\",\"respuesta1\":\"verde\",\"respuesta2\":\"azul\",\"respuesta3\":\"rojo\",\"respuesta4\":\"turquesa\"}"
+      "test": "{\"name\":\"test\",\"latitude\":41.2739483,\"longitude\":1.9783761000000002,\"description\":\"hola hola\",\"pista1\":\"busca\",\"pista2\":\"dirigete\",\"pregunta\":\"color mar\",\"respuesta1\":\"verde\",\"respuesta2\":\"azul\",\"respuesta3\":\"rojo\",\"respuesta4\":\"turquesa\"}",
+      "Test": "{\"name\":\"Test\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"description\":\"upc castelldefels\",\"pista1\":\"uni\",\"pista2\":\"prueba\",\"pregunta\":\"capitalespaña\",\"respuesta1\":\"madrid\",\"respuesta2\":\"bcn\",\"respuesta3\":\"logroño\",\"respuesta4\":\"gerona\"}",
+      "punto nuevo": "{\"name\":\"punto nuevo\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"description\":\"upc\",\"pista1\":\"uni castelldfels\",\"pista2\":\"sala reuniones\",\"pregunta\":\"capital españa\",\"respuesta1\":\"madrid\",\"respuesta2\":\"almeria\",\"respuesta3\":\"euskadi\",\"respuesta4\":\"barcelona\",\"respuestacorrecta\":\"respuesta 1\",\"namescene\":\"TEST\"}",
+      "test tfg": "{\"name\":\"test tfg\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"description\":\"hola\",\"pista1\":\"prueba 1\",\"pista2\":\"prueba 2\",\"pregunta\":\"capital españa\",\"respuesta1\":\"barcelona\",\"respuesta2\":\"gerona\",\"respuesta3\":\"madrid\",\"respuesta4\":\"valladolid\",\"respuestacorrecta\":\"respuesta 3\",\"namescene\":\"Escenario Castelldefels\"}"
     },
     "Hint": {
       "Pista 1": "{\"name\":\"Pista 1\",\"description\":\"Juegan todos, grandes y pequeños\",\"id\":0}",
       "Pista 2": "{\"name\":\"Pista 2\",\"description\":\"Pizzarra aula de Dibujo\",\"id\":2}"
     },
     "Scene": {
-      "string": "{\"name\":\"string\",\"positionId\":0,\"hintId\":0,\"id\":0}",
-      "Escenario 1": "{\"name\":\"Escenario 1\",\"positionId\":0,\"hintId\":2,\"id\":0}",
-      "Escenario 2": "{\"name\":\"Escenario 2\",\"positionId\":1,\"hintId\":1,\"id\":1}",
-      "title1": "{\"name\":\"title1\",\"latitude\":41.3301659,\"longitude\":2.0952089}",
-      "Pueba 2": "{\"name\":\"Pueba 2\",\"latitude\":41.3301659,\"longitude\":2.0952089}",
-      "TEST": "{\"name\":\"TEST\",\"latitude\":41.3301659,\"longitude\":2.0952089}"
+      "Escenario BCN": "{\"namescene\":\"TEST bcn\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"latitude1\":41.2755545,\"longitude1\":1.9842996,\"latitude2\":41.2754256,\"longitude2\":1.984294,\"latitude3\":41.276136,\"longitude3\":1.9857002}",
+      "Escenario El Prat": "{\"namescene\":\"TEST prat\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"latitude1\":41.2755545,\"longitude1\":1.9842996,\"latitude2\":41.2754256,\"longitude2\":1.984294,\"latitude3\":41.276136,\"longitude3\":1.9857002}",
+      "Escenario Castelldefels": "{\"namescene\":\"TEST castelldefels\",\"latitude\":41.2739574,\"longitude\":1.9789876999999998,\"latitude1\":41.2755545,\"longitude1\":1.9842996,\"latitude2\":41.2754256,\"longitude2\":1.984294,\"latitude3\":41.276136,\"longitude3\":1.9857002}",
+      "TEST": "{\"namescene\":\"TEST\",\"latitude\":41.2739574,\"longitude\":1.97898769}"
     },
     "Game": {
       "Mates 1": "{\"name\":\"Mates 1\",\"studentId\":0,\"groupId\":2,\"time\":0,\"questionId\":0,\"sceneId\":0,\"id\":0}",
-      "Juego Historia 2": "{\"name\":\"Juego Historia 2\",\"studentId\":1,\"groupId\":3,\"time\":60,\"questionId\":5,\"sceneId\":1,\"id\":0}"
+      "Juego Historia 2": "{\"name\":\"Juego Historia 2\",\"studentId\":1,\"groupId\":3,\"time\":60,\"questionId\":5,\"sceneId\":1,\"id\":0}",
+      "Pueba Juego": "{\"name\":\"Pueba Juego\"}"
     },
     "Student": {
       "María": "{\"name\":\"María\",\"surname\":\"García\",\"profileImage\":\"string\",\"username\":\"Maria\",\"password\":\"MMM\",\"email\":\"mgarcia@hotmail.com\",\"emailVerified\":true,\"points\":7,\"id\":1,\"schoolId\":5,\"studentId\":2,\"avatarId\":0}",
@@ -47,6 +50,10 @@
       "Mates": "{\"name\":\"Mates\",\"id\":1,\"schoolId\":1}",
       "Historia": "{\"name\":\"Historia\",\"id\":3,\"schoolId\":1}",
       "Inglés": "{\"name\":\"Inglés\",\"id\":2,\"schoolId\":1}"
+    },
+    "Rules": {
+      "Reglas": "{\"name\":\"Reglas\",\"Description\":\"prueba actualizar\"}",
+      "Nuevas Reglas": "{\"name\":\"Nuevas Reglas\",\"Description\":\"Vamos a añadir nuevas reglas\"}"
     }
   }
 }

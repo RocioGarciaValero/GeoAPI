@@ -14,3 +14,4 @@ export * from './hint.repository';
 export * from './position.repository';
 export * from './scene.repository';
 export * from './game.repository';
+export * from './rules.repository';

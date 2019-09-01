@@ -69,6 +69,12 @@ export class Position extends Entity {
   respuesta4: string;
 
   @property({
+    type: 'string',
+    required: true,
+  })
+  respuestacorrecta: string;
+
+  @property({
     type: 'number',
     required: false,
   })

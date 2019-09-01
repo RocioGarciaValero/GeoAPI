@@ -14,3 +14,4 @@ export * from './hint.model';
 export * from './position.model';
 export * from './scene.model';
 export * from './game.model';
+export * from './rules.model';

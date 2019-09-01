@@ -1,12 +1,12 @@
-import {DefaultCrudRepository} from '@loopback/repository';
-import {Scene} from '../models';
-import {DbDataSource} from '../datasources';
-import {inject} from '@loopback/core';
+import { DefaultCrudRepository } from '@loopback/repository';
+import { Scene } from '../models';
+import { DbDataSource } from '../datasources';
+import { inject } from '@loopback/core';
 
 export class SceneRepository extends DefaultCrudRepository<
   Scene,
-  typeof Scene.prototype.name
-> {
+  typeof Scene.prototype.namescene
+  > {
   constructor(
     @inject('datasources.db') dataSource: DbDataSource,
   ) {

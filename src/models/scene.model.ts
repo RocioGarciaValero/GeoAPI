@@ -7,21 +7,63 @@ export class Scene extends Entity {
     id: true,
     required: true,
   })
-  name: string;
+  namescene: string;
 
   @property({
     type: 'number',
     id: true,
-    required: true,
+    required: false,
   })
   latitude: number;
 
   @property({
     type: 'number',
     id: true,
-    required: true,
+    required: false,
   })
   longitude: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  latitude1: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  longitude1: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  latitude2: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  longitude2: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  latitude3: number;
+
+  @property({
+    type: 'number',
+    id: true,
+    required: false,
+  })
+  longitude3: number;
 
   @property({
     type: 'number',

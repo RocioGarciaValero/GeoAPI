@@ -1,6 +1,6 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
-@model({settings: {"strict":false}})
+@model({ settings: { "strict": false } })
 export class Game extends Entity {
   @property({
     type: 'string',
@@ -11,37 +11,37 @@ export class Game extends Entity {
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   studentId: number;
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   groupId: number;
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   time: number;
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   questionId: number;
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   sceneId: number;
 
   @property({
     type: 'number',
-    required: true,
+    required: false,
   })
   id: number;
 

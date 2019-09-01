@@ -15,3 +15,4 @@ export * from './hint.controller';
 export * from './position.controller';
 export * from './scene.controller';
 export * from './game.controller';
+export * from './rules.controller';
